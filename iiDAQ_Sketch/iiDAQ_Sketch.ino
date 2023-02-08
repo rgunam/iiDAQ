@@ -15,7 +15,7 @@
 
 #include <Adafruit_ADS1X15.h>
 #include <Wire.h>
-//#include <SPI.h>
+#include <SPI.h>
 #include <MD_AD9833.h>
 #include <Adafruit_MCP4725.h>
 
@@ -229,11 +229,11 @@ void loop()
           case '3':
             if(serial_data.substring(5).startsWith("H")){
                 pinMode(PIN3, OUTPUT);
-                digitalWrite(PIN1, UP);
+                digitalWrite(PIN3, UP);
             }
             if(serial_data.substring(5).startsWith("L")){
                 pinMode(PIN3, OUTPUT);
-                digitalWrite(PIN1, DOWN);
+                digitalWrite(PIN3, DOWN);
             }
           break;                 
         }
