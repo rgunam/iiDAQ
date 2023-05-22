@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toolset id="user_apps_toolset" template="false">
+   <tool app_file_path="./" handler_class="com.mathworks.appmanagement.desktop.ToolboxToolSetExtensionHandler" id="1e64fb46-b176-485e-9c19-107f8cfa395a" label="iiDAQ - Modo grafico" toolset_id="user_apps_toolset">
+      <callback>matlab.apputil.run('iiDAQModograficoAPP')</callback>
+      <summary>Interfaz gráfica en el ambiente de MATLAB para operar las funciones básicas del sistema 
+iiDAQ.</summary>
+      <description>iiDAQ es un sistema electrónico de generación y adquisición de datos que funciona a partir 
+de un microcontrolador y comunicación serial. Esta interfaz gráfica permite familiarizarse 
+con el sistema y entender el funcionamiento de los módulos que integra, destacando un 
+convertidor analógico-digital, un convertidor digital analógico y un generador de señales, 
+además de puertos de entrada/salida dedicados al análisis de sistemas básicos en el área 
+de instrumentación y control.</description>
+      <parent_tool id="my_apps" toolset_id="apps_toolset"/>
+   </tool>
+</toolset>

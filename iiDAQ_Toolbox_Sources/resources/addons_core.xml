@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addonCore>
+  <label>iiDAQ - Modo grafico</label>
+  <version>1.0</version>
+  <type>app</type>
+  <packagedBy>(R2020b)</packagedBy>
+  <identifier>1e64fb46-b176-485e-9c19-107f8cfa395a</identifier>
+  <summary>Interfaz gráfica en el ambiente de MATLAB para operar las funciones básicas del sistema 
+iiDAQ.</summary>
+  <description>iiDAQ es un sistema electrónico de generación y adquisición de datos que funciona a partir 
+de un microcontrolador y comunicación serial. Esta interfaz gráfica permite familiarizarse 
+con el sistema y entender el funcionamiento de los módulos que integra, destacando un 
+convertidor analógico-digital, un convertidor digital analógico y un generador de señales, 
+además de puertos de entrada/salida dedicados al análisis de sistemas básicos en el área 
+de instrumentación y control.</description>
+  <createdBy name="Instituto de Ingeniería" company="Universidad Nacional Autónoma de México" email="iidaq.soporte@gmail.com"/>
+  <image>resources/screenshot.png</image>
+  <icons>
+    <icon tag="0">resources/icon_48.png</icon>
+    <icon tag="1">resources/icon_24.png</icon>
+    <icon tag="2">resources/icon_16.png</icon>
+  </icons>
+</addonCore>
